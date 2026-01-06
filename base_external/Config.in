@@ -1,0 +1,2 @@
+# File: base_external/Config.in
+source "../base_external/package/aesd-assignments/Config.in"
