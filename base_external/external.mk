@@ -1,1 +1,2 @@
-include $(sort $(wildcard $(BR2_EXTERNAL_PROJECT_BASE_PATH)/package/*/*.mk))
+# This bypasses the BR2_EXTERNAL variables entirely
+include $(CURDIR)/../base_external/package/aesd-assignments/aesd-assignments.mk
